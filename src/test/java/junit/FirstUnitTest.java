@@ -10,12 +10,12 @@ public class FirstUnitTest {
     @BeforeAll
     static void beforeAll(){
         //Configuration.browser = chrome;
-        System.out.println( "Это метод @beforeAll");
+        System.out.println( "Это метод @beforeAll Перед всеми тестами");
     }
 
     @AfterAll
     static void afterAll(){
-        System.out.println("Это метод @AfterAll");
+        System.out.println("Это метод @AfterAll - после всех тестов");
     }
 
     @BeforeEach
