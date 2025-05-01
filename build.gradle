@@ -8,9 +8,8 @@ repositories {
 
 dependencies {
     testImplementation (
-            "com.codeborne:selenide:6.19.1",
-            "org.slf4j:slf4j-simple:1.7.36",
-            "org.junit.jupiter:junit-jupiter:5.9.3")
+            "com.codeborne:selenide:7.9.1",
+            "org.junit.jupiter:junit-jupiter:5.12.2")
 }
 
 tasks.withType(JavaCompile) {
@@ -20,4 +19,3 @@ tasks.withType(JavaCompile) {
 test {
     useJUnitPlatform()
 }
-
